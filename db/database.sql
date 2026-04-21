@@ -1,6 +1,6 @@
 CREATE TABLE "Users"(
   [User_id] INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
   [Email] TEXT,
-  [Login] TEXT NOT NULL,
-  [Password] PASSWORD NOT NULL,
-)
+  [Login] VARCHAR(50) NOT NULL,
+  [Password] VARCHAR(50) NOT NULL
+);
