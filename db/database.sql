@@ -1,0 +1,6 @@
+CREATE TABLE "Users"{
+  [User_id] INTEGER PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  [Email] TEXT,
+  [Login] TEXT NOT NULL,
+  [Password] PASSWORD NOT NULL,
+}
