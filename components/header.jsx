@@ -1,4 +1,4 @@
-export default function header(){
+export default function Header(){
   return(
     <header>
       <nav>
@@ -15,6 +15,5 @@ export default function header(){
         <img src="" alt=""/>                                
       </nav>
     </header>
-
-  
+    )
 }
