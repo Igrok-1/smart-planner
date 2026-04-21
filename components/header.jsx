@@ -2,6 +2,7 @@ export default function header(){
   return(
     <header>
       <nav>
+        <p className="{styles.SP}">Smart Planner</p>
         <button className="{styles.main}">Главная</button>
         <button className="{styles.profile}">Профиль</button>
         <ul className="{styles.profileUl}">
