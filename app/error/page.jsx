@@ -1,7 +1,9 @@
 export default function Error(){
   const  
   return(
-    <p>Error 404</p>
-    <p>Произошла неизвестная ошбка</p>
+    <div className="{styles.errorDiv}>
+      <p className="{styles.error}>Error 404</p>
+      <p className="{styles.text}>Произошла неизвестная ошбка</p>
+    </div>
     )
 }
