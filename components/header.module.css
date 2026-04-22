@@ -1,3 +1,80 @@
-header{
-  backgroun
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh; /* 20% высоты видимой части экрана */
+  padding: 0 10px;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* светлый фон для наглядности */
+}
+
+.SP {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #333;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main,
+.profile,
+.problems,
+.calendar,
+.info {
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: 'Arial', sans-serif; 
+  color: #555;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.main:hover,
+.profile:hover,
+.problems:hover,
+.calendar:hover,
+.info:hover {
+  background-color: #e0e0e0;
+}
+
+.profileUl {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 5px 10px;
+  list-style: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  display: none; 
+  z-index: 1000;
+}
+
+
+.setings,
+.quit {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.setings:hover,
+.quit:hover {
+  background-color: #f0f0f0;
+}
+.profileUl.show {
+  display: flex;
 }
